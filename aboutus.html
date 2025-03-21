@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+    <nav>
+        <ul class="side-bar">
+            <li onclick=HideSidebar()><a href="#"><img src="closemenu (2).svg (2).svg" alt=""></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="products.html">Our Services</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Baraka Creatives</a></li>
+            <li class="hideMob"><a href="index.html">Home</a></li>
+            <li class="hideMob"><a href="aboutus.html">About Us</a></li>
+            <li class="hideMob"><a href="products.html">Our Services</a></li>
+            <li class="hideMob"><a href="location.html">Location</a></li>
+            <li class="hideMob"><a href="contactus.html">Contact Us</a></li>
+            <li class="hidemenu" onclick=ShowSidebar()><a href="#" ><img src="menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" style="color: white;"></a></li>
+
+    </nav>
+
+    <script>
+        function ShowSidebar(){
+            const sidebar = document.querySelector('.side-bar')
+            sidebar.style.display ='flex'
+        }
+
+        function HideSidebar(){
+        const sidebar = document.querySelector('.side-bar')
+            sidebar.style.display ='none'
+        }
+    </script>
+
+    <h1>About Us</h1>
+<section class="about-us">
+    <div class="mission-container">
+        <div class="mission-text">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide cutting-edge digital services that transform businesses by leveraging the latest technologies, data-driven strategies, and creative solutions. We aim to build long-lasting relationships with our clients by delivering measurable results, ensuring their success in the digital world.</p>
+        </div>
+        <div class="mission-image">
+            <img src="mission.jpg" alt="Our Mission Image" width="300px" height="300px">
+        </div>
+    </div>
+
+    <div class="mission-container">
+        <div class="mission-image">
+            <img src="objective.jpg" alt="Our Mission Image" width="300px" height="300px">>
+        </div>
+        <div class="mission-text">
+            <h2>Our Objective</h2>
+            <p>our objective is to empower businesses with innovative digital solutions that enhance their online presence, drive engagement, and maximize revenue. We strive to deliver high-quality services, from web development to digital marketing, ensuring our clients stay ahead in the competitive digital landscape.</p>
+        </div>
+    </div>
+    <div class="mission-container">
+        <div class="mission-text">
+            <h2>Goals</h2>
+            <p>Our goal is to help businesses build a strong digital presence through high-quality web development, branding, and marketing. We enhance brand visibility, drive engagement, and boost conversions using data-driven strategies and the latest technologies. By staying ahead of trends and prioritizing client satisfaction, we ensure sustainable growth and long-term success.</p>
+        </div>
+        <div class="mission-image">
+            <img src="goals.jpg" alt="Our Mission Image" width="300px" height="300px">>
+        </div>
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+
+
+<footer>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="products.html">Services</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <a href="#"> Facebook</a>
+                    <a href="#"> Instagram</a>
+                    <a href="#"> Twitter</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: support@jtechy.com</p>
+                <p>Phone: +123 456 789</p>
+                <p>Address: Nairobi, Kenya</p>
+                <p>Location: <a href="#">View on Map</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

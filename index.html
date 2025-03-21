@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <nav>
+        <ul class="side-bar">
+            <li onclick=HideSidebar()><a href="#"><img src="closemenu (2).svg (2).svg" alt=""></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="products.html">Our Services</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Baraka Creatives</a></li>
+            <li class="hideMob"><a href="index.html">Home</a></li>
+            <li class="hideMob"><a href="aboutus.html">About Us</a></li>
+            <li class="hideMob"><a href="products.html">Our Services</a></li>
+            <li class="hideMob"><a href="location.html">Location</a></li>
+            <li class="hideMob"><a href="contact.html">Contact Us</a></li>
+            <li class="hidemenu" onclick=ShowSidebar()><a href="#" ><img src="menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" style="color: white;"></a></li>
+
+    </nav>
+
+    <script>
+        function ShowSidebar(){
+            const sidebar = document.querySelector('.side-bar')
+            sidebar.style.display ='flex'
+        }
+
+        function HideSidebar(){
+        const sidebar = document.querySelector('.side-bar')
+            sidebar.style.display ='none'
+        }
+    </script>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Baraka Artistics</h1>
+            <p>Your trusted provider of innovative and reliable digital solutions. We offer top-tier tech services tailored to your need.</p>
+            <a href="#ourservices"><button>Get Started</button></a>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <h1>ABOUT US</h1>
+        <div class="mission-container">
+            <div class="mission-text">
+                <h2>Our Mission</h2>
+                <p>We strive to provide top-quality solutions to our customers, ensuring efficiency and innovation in every service we offer.</p>
+                <button>See More</button>
+            </div>
+            <div class="mission-image">
+                <img src="heroimg.jpg" alt="Our Mission Image">
+            </div>
+        </div>
+    </section>
+    
+    <h1>WHY CHOOSE US</h1>
+
+        <div class="choose-us-container">
+            <div class="card">
+                <h2>Fast</h2>
+                <div class="card">
+                    <img src="fast.png" alt="">
+                </div>
+                <p>Optimized for performance, this template delivers lightning-fast loading speeds and smooth interactions, ensuring a quick and efficient experience. </p>
+            </div>
+
+            <div class="card">
+                <h2>Trustworthy</h2>
+                <div class="card">
+                    <img src="trust.jpg" alt="">
+                </div>
+                <p>Built with reliability in mind, this template offers a professional and secure design, ensuring credibility and confidence for users. </p>
+            </div>
+
+            <div class="card">
+                <h2>Convenient</h2>
+                <div class="card">
+                    <img src="Convenient.jpg" alt="">
+                </div>
+                <p>Designed for ease of use, this template ensures a seamless experience with intuitive navigation and well-structured content, making it effortless to access what you need. </p>
+            </div>
+        </div>
+    </section>
+
+    <h1 id="ourservices">OUR SERVICES</h1>
+
+    <section class="our-services">
+        <div class="service-container">
+            <img src="download.png" alt="" width="280" height="280px">
+            <h4>KUCCPS SERVICES</h4>
+            <div class="buy-addcart">
+                <button id="buy">Order Service</button>
+                <button id="add">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="service-container">
+            <img src="helbimg.jpg" alt="" width="280" height="280px">
+            <h4>HELB SERVICES</h4>
+            <div class="buy-addcart">
+                <button id="buy">Order Service</button>
+                <button id="add">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="service-container">
+            <img src="/logoimg.jpg" alt="" width="280" height="280px">
+            <h4>LOGO SERVICES</h4>
+            <div class="buy-addcart">
+                <button id="buy">Order Service</button>
+                <button id="add">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="service-container">
+            <img src="/poster.jpg" alt="" width="280" height="280px">
+            <h4>POSTER DESIGN SERVICES</h4>
+            <div class="buy-addcart">
+                <button id="buy">Order Service</button>
+                <button id="add">Add to Cart</button>
+            </div>
+        </div>
+        <div class="service-container">
+            <img src="flyer.jpg" alt="" width="280" height="280px">
+            <h4>FLYERS SERVICES</h4>
+            <div class="buy-addcart">
+                <button id="buy">Order Service</button>
+                <button id="add">Add to Cart</button>
+            </div>
+        </div>
+        <div class="service-container">
+            <img src="ui-ux.png" alt="" width="280" height="280px">
+            <h4>UI/UX SERVICES</h4>
+            <div class="buy-addcart">
+                <button id="buy">Order Service</button>
+                <button id="add">Add to Cart</button>
+            </div>
+        </div>
+        <div class="service-container">
+            <img src="bscard.jpg" alt="" width="280" height="280px">
+            <h4>BUSINESS CARDS SERVICES</h4>
+            <div class="buy-addcart">
+                <button id="buy">Order Service</button>
+                <button id="add">Add to Cart</button>
+            </div>
+        </div>
+        <div class="service-container">
+            <img src="emailmarketting.png" alt="" width="280" height="280px">
+            <h4>EMAIL MARKETING SERVICES</h4>
+            <div class="buy-addcart">
+                <button id="buy">Order Service</button>
+                <button id="add">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="service-container">
+            <img src="business consulting.jpg" alt="" width="280" height="280px">
+            <h4>BUSINESS CONSULTING SERVICES</h4>
+            <div class="buy-addcart">
+                <button id="buy">Order Service</button>
+                <button id="add">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="service-container" >
+            <img src="va.jpg" alt="" width="280" height="280px">
+            <h4>VIRTUAL ASSISTANT SERVICES</h4>
+            <div class="buy-addcart">
+                <button id="buy">Order Service</button>
+                <button id="add">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <h1 style="text-align: center;">SEND US YOUR FEEDBACK</h1>
+<section class="feedbackform">
+    <form>
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <div class="buttons">
+            <button type="reset" class="reset-btn">Reset</button>
+            <button type="submit" class="submit-btn">Submit</button>
+        </div>
+    </form>
+</section>
+
+<section class="footer-section"></section>
+
+<footer>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-section" style="color: white;">
+                <h3>Contact Us</h3>
+                <p>Email: support@jtechy.com</p>
+                <p>Phone: +123 456 789</p>
+                <p>Address: Nairobi, Kenya</p>
+                <p>Location: <a href="#">View on Map</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

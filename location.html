@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="location.css">
+</head>
+<body>
+    <nav>
+        <ul class="side-bar">
+            <li onclick=HideSidebar()><a href="#"><img src="/WEB IMAGES/closemenu (2).svg (2).svg" alt=""></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="products.html">Our Services</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Baraka Creatives</a></li>
+            <li class="hideMob"><a href="index.html">Home</a></li>
+            <li class="hideMob"><a href="aboutus.html">About Us</a></li>
+            <li class="hideMob"><a href="products.html">Our Services</a></li>
+            <li class="hideMob"><a href="location.html">Location</a></li>
+            <li class="hideMob"><a href="contactus.html">Contact Us</a></li>
+            <li class="hidemenu" onclick=ShowSidebar()><a href="#" ><img src="WEB IMAGES/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" style="color: white;"></a></li>
+
+    </nav>
+
+    <script>
+        function ShowSidebar(){
+            const sidebar = document.querySelector('.side-bar')
+            sidebar.style.display ='flex'
+        }
+
+        function HideSidebar(){
+        const sidebar = document.querySelector('.side-bar')
+            sidebar.style.display ='none'
+        }
+    </script>
+
+<section class="location">
+    <h1>OUR LOCATION</h1>
+    <div class="location-container">
+        <div class="location-text">
+            <h2>Nairobi</h2>
+            <p>Located in the heart of the city at Westlands Business Park, offering easy access to clients across the capital.</p>
+            <a href="https://www.google.com/maps/place/Nairobi/@-1.2776092,36.78003,13.06z/data=!4m15!1m8!3m7!1s0x182f1172d84d49a7:0xf7cf0254b297924c!2sNairobi!3b1!8m2!3d-1.2920659!4d36.8219462!16zL20vMDVkNDk!3m5!1s0x182f1172d84d49a7:0xf7cf0254b297924c!8m2!3d-1.2920659!4d36.8219462!16zL20vMDVkNDk?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoJLDEwMjExNjM5SAFQAw%3D%3D"><button>Visit Map</button></a>
+
+        </div>
+        <div class="location-image">
+            <img src="Nairobimap.png" alt="Our location Image">
+        </div>
+    </div>
+</section>
+
+<section class="location">
+    <div class="location-container">
+        <div class="location-text">
+            <h2>Nakuru</h2>
+            <p>Situated along Kenyatta Avenue, right in the city's commercial district for convenient client visits.</p>
+            <a href="https://www.google.com/maps/place/Nakuru/@-0.3000425,36.0780201,16.25z/data=!4m6!3m5!1s0x18298d90cf610bef:0xf2f21833bc7cc21a!8m2!3d-0.3030988!4d36.080026!16zL20vMDY1MTNn?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoJLDEwMjExNjM5SAFQAw%3D%3D"><button>Visit Map</button></a>
+
+        </div>
+        <div class="location-image">
+            <img src="Nakurumap.png" alt="Our location Image">
+        </div>
+    </div>
+</section>
+
+<section class="location">
+    <div class="location-container">
+        <div class="location-text">
+            <h2>Kisumu</h2>
+            <p>Visit our office at United Mall, a central location for all your digital service needs.</p>
+            <a href="https://www.google.com/maps/place/Kisumu/@-0.0923529,34.7664713,17.39z/data=!4m15!1m8!3m7!1s0x182aa437ad4ac81d:0x2012a439d6248dd2!2sKisumu!3b1!8m2!3d-0.0917016!4d34.7679568!16zL20vMDJrNjQx!3m5!1s0x182aa437ad4ac81d:0x2012a439d6248dd2!8m2!3d-0.0917016!4d34.7679568!16zL20vMDJrNjQx?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoJLDEwMjExNjM5SAFQAw%3D%3D"><button>Visit Map</button></a>
+        </div>
+        <div class="location-image">
+            <img src="kisumumap.png" alt="Our location Image">
+        </div>
+    </div>
+</section> 
+
+<footer>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <a href="#">🔵 Facebook</a>
+                    <a href="#">🟣 Instagram</a>
+                    <a href="#">🔷 Twitter</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: support@jtechy.com</p>
+                <p>Phone: +123 456 789</p>
+                <p>Address: Nairobi, Kenya</p>
+                <p>Location: <a href="#">View on Map</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
