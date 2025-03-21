@@ -55,8 +55,11 @@ h2 {
 }
 
 .contact-form {
+    
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 }
 
 .contact-form input, .contact-form textarea {
